@@ -1,101 +1,312 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <style>
-        
-    </style>
-    <title>BluePeak Digital</title>
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poojashree - UI/UX Designer</title>
     <link rel="stylesheet" href="style.css">
-    <head>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
-    <title>BluePeak Digital</title>
-</head>
-
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">PJN</div>
+                <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- HERO SECTION -->
+<section id="home" class="hero">
+
+    <div class="hero-container">
+
+        <!-- LEFT SIDE -->
+        <div class="hero-text">
+            <span class="tag">UI/UX Designer</span>
+
+            <h1 class="hero-title">
+                 <span class="highlight">Poojashree</span>
+            </h1>
+
+            <p class="hero-subtitle">
+                Passionate about creating intuitive and beautiful digital experiences.I'm a passionate UI/UX design enthusiast currently completing my Bachelor's in Computer Science from Sullia. Through self-learning and personal projects, I've developed strong skills in creating user-centered digital experiences.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="poojashree_resume (1).pdf" class="btn-primary">View CV</a>
+                <a href="#contact" class="btn-outline">Contact Me</a>
+            </div>
+        </div>
+
+        <!-- RIGHT SIDE IMAGE -->
+        <div class="hero-image">
+            <img src="assests/IMG_20231219_200939_727.jpg" alt="Poojashree">
+        </div>
+
+    </div>
+
+</section>
+
+
    
 
-<!-- Navigation -->
-<nav>
-    <h2 class="logo">BluePeak  </h2>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="contact.html">Contact</a></li>
-    </ul>
-</nav>
 
-<!-- Hero Section -->
-<section id="hero" class="hero">
-    <h1> BluePeak Digital</h1>
-    <p>We Build Modern Websites & Applications</p>
-    <a href="services.html" class="btn">Our Services</a>
-</section>
+ 
 
-<section class="about-hero">
+       <!-- SKILLS PAGE -->
+        <div id="skills" class="page">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>Frontend</h3>
+                    <p>HTML5, CSS3, JavaScript, React</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Backend</h3>
+                    <p>Node.js, Express, MongoDB</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Tools</h3>
+                    <p>Git, GitHub, VS Code, Figma</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Design</h3>
+                    <p>Responsive Design, Animations, UI/UX</p>
+                </div>
+            </div>
 
-    <div class="about-left">
-        <h1>BluePeak Digital</h1>
-        <p>
-            Driving Innovation and Excellence in Financial Technology
-        </p>
+            <!-- Certificates -->
+<section id="certificates" class="section">
+    <h2>Certificates</h2>
 
-        <button class="learn-btn">
-        <a href="about.html" class="learn-btn">Learn More →</a>
-        </button>
+    <div class="projects-grid">
+
+        <div class="project-card">
+            <h3>Aitch Nu Golbal Technologies</h3>
+            <p>Completed internship training in mern stack including HTML, CSS, JavaScript and backend basics.</p>
+            <a href="offer lettercertificate.pdf" target="_blank" class="btn">
+                View Certificate
+            </a>
+        </div>
+
+        <div class="project-card">
+            <h3>Basics of Python</h3>
+            <p>successfully completed the GenAI Powered Data Analytics Job Simulation conducted by TATA in collaboration with Forage.</p>
+            <a href="assests\1-449a847d-3e2e-4e46-bc66-e3de4eab3699.pdf" target="_blank" class="btn">
+                View Certificate
+            </a>
+        </div>
+
+        <div class="project-card">
+            <h3>NPTEL</h3>
+            <p>Software that helps users store, organize, manage, and retrieve data in a structured and efficient way.</p>
+            <a href="Data Base Management System.pdf" target="_blank" class="btn">
+                View Certificate
+            </a>
+        </div>
+
+        <div class="project-card">
+            <h3>Cognex</h3>
+            <p>Workshop on Mastering Cloud Computing Concepts on Google Cloud and AWS.</p><br>
+            <a href="assests/certificate.jpg" target="_blank" class="btn">
+                View Certificate
+            </a>
+        </div>
     </div>
-
-    <div class="about-right">
-        <img src="assests\software.jpg" alt="Team Image" height="600px" width="700px">
-        <div class="shape shape1"></div>
-        <div class="shape shape2"></div>
-    </div>
-
 </section>
+        </div>
 
 
 
-<!-- FOOTER -->
-<footer>
 
-<div class="footer-container">
 
-<div class="footer-box">
-<h4>BluePeak </h4>
-<p>Build Modern Websites & Applications</p>
+    <!-- Projects - Academic & Personal Projects -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title"> Projects</h2>
+            <div class="projects-grid">
+
+                <div class="project-card">
+                    <div class="project-image"></div>
+                    
+                    <div class="project-content">
+                        <h3>Student Result Tracker System</h3>
+                        <p>Developed a computerized system to manage student examination records. <strong>Academic Project</strong></p>
+                        <div class="project-tech">
+                            <span>Figma</span>
+                            <span>Wireframes</span>
+                            <span>Prototypes</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="http://localhost/Student Result Management System/mini_project/home_page.html" class="link">Live Demo</a>
+                            
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="project-card">
+                    <div class="project-image"></div>
+                    
+                    <div class="project-content">
+                        <h3>BluePeak Digital</h3>
+                        <p>Complete redesign focusing on the Company website. <strong>Personal Project</strong></p>
+                        <div class="project-tech">
+                            <span>Figma</span>
+                            <span>HTML/CSS</span>
+                            <span>User Research</span>
+                        </div>
+                        <div class="project-links">
+                         
+                            <a href="file:///E:/Internship/week2%20ass/index.html" class="link">Live Demo</a>
+                               
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="project-card">
+                    <div class="project-image"></div>
+                    <div class="project-content">
+                        <h3>Portfolio Website</h3>
+                        <p>This portfolio site built with modern HTML, CSS and responsive design principles. <strong>Self-taught</strong></p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>Responsive</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="http://127.0.0.1:5500/index.html" class="link">Live Demo</a>
+                            
+                        </div>
+                    </div>
+                </div>
+
+               <div class="project-card">
+                    <div class="project-image"></div>
+                    <div class="project-content">
+                        <h3>College Pacement Tracker</h3>
+                        <p>Complete redesign focusing on the tracking the result og our college. <strong>Self-taught</strong></p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>Responsive</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="http://localhost:3000/" class="link">Live Demo</a>
+                            
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Ready to start collaborating?</h3>
+                    <p>Excited to bring fresh ideas to your next project! Open to freelance opportunities, internships and entry-level positions.</p>
+                    <div class="contact-links">
+                        <a href="mailto:poojashree.n@gmail.com">poojashree.n@gmail.com</a>
+                        <a href="tel:+919876543210">+91 98765 43210</a>
+                       <div class="social-icons">
+    <a href="https://www.linkedin.com/in/poojashree-j-n-661b25279" target="_blank">
+        <i class="fab fa-linkedin"></i>
+    </a>
+
+    <a href="https://github.com/pooja-213" target="_blank">
+        <i class="fab fa-github"></i>
+    </a>
+
+    <a href="https://instagram.com/yourprofile" target="_blank">
+        <i class="fab fa-instagram"></i>
+    </a>
 </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <textarea placeholder="Tell me about your project..." required></textarea><br>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
 
-<div class="footer-box">
-<h4>Quick Links</h4>
-<a href="about.html">About</a>
-<a href="services.html">Services</a>
-<a href="contact.html">Contact</a>
-</div>
 
-<div class="footer-box">
-<h4>Services</h4>
-<a href="service1.html">Web Development</a>
-<a href="service2.html">App Development</a>
-<a href="service3.html">Digital Marketing</a>
-<a href="service4.html">Graphic Design</a>
-</div>
 
-<div class="footer-box">
-<h4>Contact</h4>
-<p>Sullia, Karnataka</p>
-<p>+91 9591625188</p>
-</div>
 
-</div>
 
-<div class="footer-bottom">
-© 2026 BluePeak  | All Rights Reserved
-</div>
 
+    <footer class="footer">
+    <div class="footer-container">
+
+        <!-- Logo -->
+       
+
+        <!-- Footer Content -->
+        <div class="footer-content">
+
+            <!-- Contact -->
+            <div class="footer-box">
+                <i class="fa-solid fa-phone footer-icon"></i>
+                <h3>CONTACT</h3>
+                <p>+919876543210</p>
+                <p>poojashree.n@gmail.com</p>
+            </div>
+
+            <!-- Follow Us -->
+            <div class="footer-box">
+                <i class="fa-solid fa-users footer-icon"></i>
+                <h3>FOLLOW US</h3>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/poojashree-j-n-661b25279"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://github.com/pooja-213"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+
+            <!-- Location -->
+            <div class="footer-box">
+                <i class="fa-solid fa-location-dot footer-icon"></i>
+                <h3>LOCATION</h3>
+                <p>Peraje, Madikeri</p>
+                <p>Kodagu - 560042</p>
+            </div>
+
+        </div>
+
+    </div>
 </footer>
 
+
+    
 </body>
 </html>
